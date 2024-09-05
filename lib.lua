@@ -22,7 +22,7 @@ function Library.init(args)
 
 	local player = game.Players.LocalPlayer
 	local screenGui = Instance.new("ScreenGui")
-	screenGui.Parent = player:WaitForChild("PlayerGui")
+	screenGui.Parent = game:GetService("CoreGui")
 
 	local mainFrame = Instance.new("Frame")
 	mainFrame.Size = UDim2.new(0, 600, 0, 300)
