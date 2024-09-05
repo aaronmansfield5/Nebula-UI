@@ -1,6 +1,4 @@
-### Nebula UI Library for Roblox
-
----
+![image](https://github.com/user-attachments/assets/04a4a09c-23ad-4638-9740-46c2f46b29f1)
 
 ### **Overview**
 
@@ -14,7 +12,9 @@ The **Nebula UI Library** is a highly customizable and modular Roblox interface 
 - **User Profile Integration**: Displays the player's avatar and information with gradients and customizable player frames.
 - **UI Tweens**: Uses `TweenService` to create smooth transitions and interactions.
 - **Responsive Design**: Automatically adjusts the layout to fit different screen sizes and resolutions.
-  
+
+![image](https://github.com/user-attachments/assets/2f7599a1-9645-4a19-b6aa-74b2a736f55c)
+
 ---
 
 ### **Installation and Setup**
@@ -86,6 +86,22 @@ Nebula.init({
 ### **Mobile and PC Compatibility**
 
 The library automatically detects the platform using `UserInputService`, and adjusts the UI layout accordingly. This ensures a seamless experience for both mobile and PC users, with optimized touch support for mobile devices.
+
+### **Next Steps**
+
+1. **Add More Components**: Continue to expand the library with additional UI elements such as buttons, dropdowns, and more advanced features like tabs or collapsible sections.
+
+2. **Mobile Optimization**: Ensure that all UI components work seamlessly across various mobile screen sizes, enhancing the user experience for mobile players.
+
+3. **Themes and Customization**: Implement additional customization options, allowing users to easily switch between predefined themes or create their own using custom colors and fonts.
+
+4. **Community Contribution**: Open the project for community contributions by providing a clear contributing guide and issue templates to help others collaborate on improving the library.
+
+5. **Documentation and Examples**: Expand on the existing documentation by adding detailed usage examples for each feature. This will help other developers implement the library more effectively.
+
+6. **Performance Optimization**: Optimize the library to ensure that it remains lightweight and fast, even in larger projects or games with complex UIs.
+
+7. **Executor-Specific Features**: Introduce features or optimizations that leverage the strengths of popular executors like Solara, Wave, and Synapse X to enhance functionality further.
 
 ### **Conclusion**
 
