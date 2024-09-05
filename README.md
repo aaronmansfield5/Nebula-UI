@@ -22,7 +22,7 @@ The **Nebula UI Library** is a highly customizable and modular Roblox interface 
 To start using Nebula UI, you need to ensure you have a valid Roblox executor like **Solara**, **Wave**, or **Synapse Z**. Simply load the library by running the following command in your executor:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebula-UI/main/lib.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebula-UI/master/lib.lua"))()
 ```
 
 ### **Initialization**
@@ -30,7 +30,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebul
 To initialize the Nebula UI Library in your game, you will need to pass in customization options such as `ImageId` and `PrimaryColour`. Here is an example script to get started:
 
 ```lua
-local Nebula = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebula-UI/main/lib.lua"))()
+local Nebula = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebula-UI/master/lib.lua"))()
 
 Nebula.init({
     ImageId = "12345678",  -- The asset ID for the top image/logo
