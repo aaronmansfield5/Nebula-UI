@@ -32,7 +32,7 @@ To initialize the Nebula UI Library in your game, you will need to pass in custo
 ```lua
 local Nebula = loadstring(game:HttpGet("https://raw.githubusercontent.com/aaronmansfield5/Nebula-UI/master/lib.lua"))()
 
-Nebula.init({
+local UI = Nebula.init({
     ImageId = "12345678",  -- The asset ID for the top image/logo
     PrimaryColour = "#3498db"  -- Hex color for UI accents
 })
@@ -43,7 +43,7 @@ Nebula.init({
 You can create different sections in your UI, which can hold various controls like toggles, sliders, and inputs. Below is an example of how to create a section with a text input, toggle, and slider:
 
 ```lua
-local section = Nebula.addSection("Settings")
+local section = UI.addSection("Settings")
 
 -- Add a Text Input
 section.addTextInput("Username", "Enter your name", function(input)
